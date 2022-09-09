@@ -1,7 +1,6 @@
 body {
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;    
     color:#544837;
     font-size: 16px;
     line-height: 26px;
@@ -45,6 +44,14 @@ p {
     margin: 0 0 20px;
 }
 
+.btn.btn-sm {
+    width: 100%;
+    max-width: 110px;
+    font-weight: 600;
+    height: 100% ;
+    max-height: 46px;
+}
+
 .container {
    max-width: 1230px; 
    width: 100%;
@@ -63,6 +70,8 @@ p {
 .hero-section .col {
     width: 50%;
 }
+
+
 
 .hero-section .col:first-child {
     padding: 97px 0;
@@ -101,6 +110,11 @@ p {
 
 .design-tools .col {
     width: 25%;
+    padding: 0 20px;
+}
+
+.design-tools .row {
+    margin: 0 -20px;
 }
 
 .design-tools .btn {
@@ -110,3 +124,77 @@ p {
 .icon-holder {
     margin: 0 auto 30px;
 }
+
+.nav-link-active,
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-list,
+.prof-list{
+    list-style-type: none;
+}
+
+.nav-link-active {
+    color: #FF9900;
+
+}
+
+.nav-link {
+    color:#2F281E;
+}
+
+.btn-whight {
+   background-color: #FFFFFF; 
+   color: #2F281E;
+   font-size: 16px;
+   line-height: 20px;
+   font-weight: 600;
+   border: 1px solid #BCD0E5;
+   width: 100%;
+   max-width: 110px;
+   max-height: 46px;
+   margin-right: 32px;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav-btn {
+    display: inline-block;
+    
+}
+
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits-section .col {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.benefits-section .row {
+   display: flex; 
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.benefits-section:nth-child(odd) .row {
+    flex-direction: row-reverse;
+}
+
+
