@@ -222,18 +222,16 @@ img {
     flex-direction: row-reverse;
 }
 
-/* .sing {
-    display: inline;
-} */
+.sing {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
+}
 
 .name-item {
     display: inline; 
 }
 
-.quik-links {
-    font-size: 20px;
-    line-height: 30px;
-    font-family: 'Gotham';
-    color: #2F281E;
 
-}
